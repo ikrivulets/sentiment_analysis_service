@@ -126,3 +126,30 @@ HTTP коды ответов будут добавлены позже.
                 ...
             ]
         }
+
+/objects?name="Iphone"
+    GET - get objects collection:
+        Request: {}
+        Response:
+        {
+
+            [
+                {
+                    "links" : {
+                        "self" : "/objects/15"
+                    }
+                    "id" : "/objects/15"
+                    "name" : "Iphone 7"
+                    "averageMark" : "2.8"
+                },
+		{
+                    "links" : {
+                        "self" : "/objects/25"
+                    }
+                    "id" : "/objects/25"
+                    "name" : "Iphone 5s"
+                    "averageMark" : "3.4"
+                },
+                ...
+            ]
+        }
