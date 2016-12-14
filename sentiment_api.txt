@@ -1,0 +1,128 @@
+Sentiment Analysis
+
+Идея такая: пользователь/клиент может:
+	1. Добавить новый твит(небольшой текст/мнение о чем-либо) для получения тональности самого твита
+и мнения/отношения  об объектах, упоминаемых в нем;
+	2. Ввести имя/название обьекта, и на основе уже полученных мнений о нем получить какую-то среднюю его оценку.
+
+Предполагается, что оценка тональности твита/объекта лежит в диапазоне  от -5(полностью негативная) до 5(полностью позитивная)
+
+То есть имеем два ресурса /tweets и /objects. 
+Использую REST, потому что функционал API  покрывается набором CRUD операций(даже CR).
+Соответственно стараюсь соблюсти его принципы. 
+
+
+HTTP коды ответов будут добавлены позже.
+
+
+/tweets:
+    GET - get tweets collection:
+        Request: {}
+        Response:
+        {
+            "links" : {
+                "self" : "/tweets"
+                "create" : "/tweets"
+            }
+            "items" : [
+                {
+                    "links" : {
+                        "self" : "/tweets/100"
+                    }
+                    "id" : "/tweets/100"
+                    "text" : "Iphone 7 is terrible in comparison with previous one"
+                    "mark" : "-3.5"
+                    "date" : timestamp
+                },
+                ...
+            ]
+        }
+    POST - create tweet:
+        Request:
+        {
+            "text" : "Iphone 7 is terrible in comparison with previous one"
+            "date" : timestamp
+        }
+        Response:
+        {
+            "links" : {
+                "self" : "/tweets/100"
+            }
+            "id" : "/tweets/100"
+        }
+
+/tweets/[tweet-id]
+    GET - get tweet:
+        Request: {}
+        Response:
+        {
+            "links": {
+                "self" : "/tweets/100"
+                "collection" : "/tweets"
+            }
+            "id" : "/tweets/100"
+            "text" : "Iphone 7 is terrible in comparison with previous one"
+            "mark" : "-1.2"
+            "date" : timestamp
+            "objects" : [
+                {
+                    "links" : {
+                        "self" : "/objects/15"
+                    }
+                    "id" : "/objects/15"
+                    "name" : "Iphone 7"
+                    "mark" : "-3.5"
+                    "date" : timestamp
+                },
+                ...
+            ]
+        }
+
+
+/objects:
+    GET - get objects collection:
+        Request: {}
+        Response:
+        {
+            "links" : {
+                "self" : "/objects"
+                "create" : "/objects"
+            }
+            "items" : [
+                {
+                    "links" : {
+                        "self" : "/objects/15"
+                    }
+                    "id" : "/objects/15"
+                    "name" : "Iphone 7"
+                    "averageMark" : "2.8"
+                },
+                ...
+            ]
+        }
+
+/objects/[object-id]
+    GET - get object:
+        Request: {}
+        Response:
+        {
+            "links": {
+                "self" : "/objects/15"
+                "collection" : "/objects"
+            }
+            "id" : "/objects/15"
+            "name" : "Iphone 7"
+            "averageMark" : "2.8"
+            "tweets" : [
+                {
+                    "links" : {
+                        "self" : "/tweets/100"
+                    }
+                    "id" : "/tweets/100"
+                    "text" : "Iphone 7 is terrible in comparison with previous one"
+                    "objectMark" : "-3.5"
+                    "date" : timestamp
+                },
+                ...
+            ]
+        }
