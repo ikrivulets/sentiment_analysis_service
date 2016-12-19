@@ -9,7 +9,9 @@ Sentiment Analysis
 
 То есть имеем два ресурса /tweets и /objects. 
 Использую REST, потому что функционал API  покрывается набором CRUD операций(даже CR).
-Соответственно стараюсь соблюсти его принципы. 
+Соответственно стараюсь соблюсти его принципы.
+На данный момент посчитал, что лучше пожертвовать self descriptive messages, так как подходящих Content Type не нашел,
+а писать свой кажется нецелесообразно.
 
 
 HTTP коды ответов будут добавлены позже.
@@ -122,33 +124,6 @@ HTTP коды ответов будут добавлены позже.
                     "text" : "Iphone 7 is terrible in comparison with previous one"
                     "objectMark" : "-3.5"
                     "date" : timestamp
-                },
-                ...
-            ]
-        }
-
-/objects?name="Iphone"
-    GET - get objects collection:
-        Request: {}
-        Response:
-        {
-
-            [
-                {
-                    "links" : {
-                        "self" : "/objects/15"
-                    }
-                    "id" : "/objects/15"
-                    "name" : "Iphone 7"
-                    "averageMark" : "2.8"
-                },
-		{
-                    "links" : {
-                        "self" : "/objects/25"
-                    }
-                    "id" : "/objects/25"
-                    "name" : "Iphone 5s"
-                    "averageMark" : "3.4"
                 },
                 ...
             ]
