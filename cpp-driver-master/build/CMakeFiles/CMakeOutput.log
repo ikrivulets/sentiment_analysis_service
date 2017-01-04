@@ -802,3 +802,42 @@ Source file was:
     #include <functional>
     int main() { int x = std::hash<int>()(42); }
     
+Performing C++ SOURCE FILE Test HAVE_UNORDERED_MAP succeeded with the following output:
+Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1999/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1999.dir/build.make CMakeFiles/cmTC_b1999.dir/build
+make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b1999.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_UNORDERED_MAP  -std=c++11   -o CMakeFiles/cmTC_b1999.dir/src.cxx.o -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b1999
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1999.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_UNORDERED_MAP  -std=c++11    CMakeFiles/cmTC_b1999.dir/src.cxx.o  -o cmTC_b1999 -rdynamic 
+make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+      #include <unordered_map>
+      int main() {
+        std::unordered_map<int,int> m;
+        return m.find(42) == m.end();
+      }
+      
+Performing C++ SOURCE FILE Test HAVE_HASH_FUNC_HEADER succeeded with the following output:
+Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36196/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36196.dir/build.make CMakeFiles/cmTC_36196.dir/build
+make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36196.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_HASH_FUNC_HEADER  -std=c++11   -o CMakeFiles/cmTC_36196.dir/src.cxx.o -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_36196
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36196.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_HASH_FUNC_HEADER  -std=c++11    CMakeFiles/cmTC_36196.dir/src.cxx.o  -o cmTC_36196 -rdynamic 
+make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <functional>
+    int main() { int x = std::hash<int>()(42); }
+    

@@ -97,3 +97,35 @@ Source file was:
         return m.find(42) == m.end();
       }
       
+Performing C++ SOURCE FILE Test HAVE_UNORDERED_MAP failed with the following output:
+Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_846de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_846de.dir/build.make CMakeFiles/cmTC_846de.dir/build
+make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_846de.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_UNORDERED_MAP  -std=c++11   -o CMakeFiles/cmTC_846de.dir/src.cxx.o -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx
+/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx:4:14: error: ‘std::tr1’ has not been declared
+         std::tr1::unordered_map<int,int> m;
+              ^
+/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx:4:33: error: expected primary-expression before ‘int’
+         std::tr1::unordered_map<int,int> m;
+                                 ^
+/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx:5:16: error: ‘m’ was not declared in this scope
+         return m.find(42) == m.end();
+                ^
+CMakeFiles/cmTC_846de.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_846de.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_846de.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_846de/fast' failed
+make: *** [cmTC_846de/fast] Error 2
+
+Source file was:
+
+      #include <unordered_map>
+      int main() {
+        std::tr1::unordered_map<int,int> m;
+        return m.find(42) == m.end();
+      }
+      
