@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++0x -fPIC -O2
 LDFLAGS = -shared
-LIBS = -lfastcgi-daemon2 -ljsoncpp
+LIBS = -lfastcgi-daemon2 -ljsoncpp -Lbuild -lcassandra -Iinclude
 
 SOURCES = Sentiment.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
