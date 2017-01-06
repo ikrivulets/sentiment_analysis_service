@@ -12,7 +12,6 @@
 #include <jsoncpp/json/value.h>
 
 #include <cassandra.h>
-
 #include "CassandraManager.h"
 
 class Sentiment : virtual public fastcgi::Component, virtual public fastcgi::Handler {
@@ -31,9 +30,7 @@ public:
     virtual void onLoad() {
         srand (time(NULL));
 
-        CassCluster* cluster;
-        CassSession* session;
-        CassFuture *connect_future = NULL;
+        connect_future = NULL;
         cluster = cass_cluster_new();
         session = cass_session_new();
         char *hosts = (char *)"192.168.56.1";
@@ -70,8 +67,8 @@ public:
             fastcgi::DataBuffer dataBuffer = request->requestBody();
             std::string db_string;
             dataBuffer.toString(db_string);
-            std::string response_body = parseRequest(cluster, session, connect_future, db_string);
-            request->write(response_body.c_str(), response_body.length());
+	    std::string response_body = parseRequest(cluster, session, connect_future, db_string);
+	    request->write(response_body.c_str(), response_body.size());
         }
     }
 

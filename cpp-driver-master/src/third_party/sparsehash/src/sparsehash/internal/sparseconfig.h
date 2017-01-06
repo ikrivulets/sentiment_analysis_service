@@ -1,7 +1,7 @@
-#define HASH_FUN_H  <functional>
+#define HASH_FUN_H  <tr1/functional>
 
 /* the namespace of the hash<> function */
-#define HASH_NAMESPACE  std
+#define HASH_NAMESPACE  std::tr1
 
 #define HASH_NAME  hash
 

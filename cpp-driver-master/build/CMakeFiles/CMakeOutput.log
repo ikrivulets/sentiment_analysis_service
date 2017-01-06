@@ -1,6 +1,6 @@
-The system is: Linux - 4.4.0-57-generic - x86_64
+The system is: Linux - 3.8.0-29-generic - i686
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/cc 
+Compiler: /usr/bin/gcc 
 Build flags: 
 Id flags: 
 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,105 +23,100 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1555e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1555e.dir/build.make CMakeFiles/cmTC_1555e.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1555e.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_1555e.dir/testCCompiler.c.o   -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_1555e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1555e.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_1555e.dir/testCCompiler.c.o  -o cmTC_1555e -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9a5e8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9a5e8.dir/build.make CMakeFiles/cmTC_9a5e8.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9a5e8.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_9a5e8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_9a5e8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a5e8.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_9a5e8.dir/CMakeCCompilerABI.c.o  -o cmTC_9a5e8 -rdynamic  
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  
 Using built-in specs.
-COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-1ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9a5e8' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHwSRpe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_9a5e8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_9a5e8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9a5e8/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9a5e8.dir/build.make CMakeFiles/cmTC_9a5e8.dir/build]
-  ignore line: [make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_9a5e8.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_9a5e8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_9a5e8]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a5e8.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_9a5e8.dir/CMakeCCompilerABI.c.o  -o cmTC_9a5e8 -rdynamic  ]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
-  ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-1ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9a5e8' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHwSRpe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_9a5e8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_9a5e8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccHwSRpe.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+  ignore line: [gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
+    arg [elf_i386] ==> ignore
     arg [--hash-style=gnu] ==> ignore
-    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9a5e8] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
-    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_9a5e8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -131,182 +126,116 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6] ==> [/usr/lib/gcc/i686-linux-gnu/4.6]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> [/usr/lib]
   implicit libs: [c]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
-  implicit fwks: []
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.6;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
 
 
-
-
-Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_2b1a2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2b1a2.dir/build.make CMakeFiles/cmTC_2b1a2.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2b1a2.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_2b1a2.dir/feature_tests.c.o   -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2b1a2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b1a2.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_2b1a2.dir/feature_tests.c.o  -o cmTC_2b1a2 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:1c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_b9ec7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b9ec7.dir/build.make CMakeFiles/cmTC_b9ec7.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b9ec7.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_b9ec7.dir/feature_tests.c.o   -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b9ec7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9ec7.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_b9ec7.dir/feature_tests.c.o  -o cmTC_b9ec7 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_8474b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8474b.dir/build.make CMakeFiles/cmTC_8474b.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8474b.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_8474b.dir/feature_tests.c.o   -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8474b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8474b.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_8474b.dir/feature_tests.c.o  -o cmTC_8474b -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:0c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9a6d2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9a6d2.dir/build.make CMakeFiles/cmTC_9a6d2.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9a6d2.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_9a6d2.dir/testCXXCompiler.cxx.o -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_9a6d2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a6d2.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_9a6d2.dir/testCXXCompiler.cxx.o  -o cmTC_9a6d2 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o -c /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_444b0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_444b0.dir/build.make CMakeFiles/cmTC_444b0.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_444b0.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_444b0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_444b0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_444b0.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_444b0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_444b0 -rdynamic  
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-1ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_444b0' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgf91KC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_444b0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_444b0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_444b0/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_444b0.dir/build.make CMakeFiles/cmTC_444b0.dir/build]
-  ignore line: [make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_444b0.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_444b0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_444b0]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_444b0.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_444b0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_444b0 -rdynamic  ]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
-  ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-1ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_444b0' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgf91KC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_444b0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_444b0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccgf91KC.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+  ignore line: [gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
+    arg [elf_i386] ==> ignore
     arg [--hash-style=gnu] ==> ignore
-    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_444b0] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
-    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_444b0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -314,530 +243,225 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o] ==> ignore
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6] ==> [/usr/lib/gcc/i686-linux-gnu/4.6]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;c]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
-  implicit fwks: []
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.6;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
 
 
+Performing C++ SOURCE FILE Test HAVE_UNORDERED_MAP succeded with the following output:
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-
-Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_9e313/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9e313.dir/build.make CMakeFiles/cmTC_9e313.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9e313.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_9e313.dir/feature_tests.cxx.o -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9e313
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e313.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_9e313.dir/feature_tests.cxx.o  -o cmTC_9e313 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_468c7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_468c7.dir/build.make CMakeFiles/cmTC_468c7.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_468c7.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_468c7.dir/feature_tests.cxx.o -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_468c7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_468c7.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_468c7.dir/feature_tests.cxx.o  -o cmTC_468c7 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_f10d5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f10d5.dir/build.make CMakeFiles/cmTC_f10d5.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f10d5.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_f10d5.dir/feature_tests.cxx.o -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f10d5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f10d5.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_f10d5.dir/feature_tests.cxx.o  -o cmTC_f10d5 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:0cxx_alias_templates
-    Feature record: CXX_FEATURE:0cxx_alignas
-    Feature record: CXX_FEATURE:0cxx_alignof
-    Feature record: CXX_FEATURE:0cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:0cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
-    Feature record: CXX_FEATURE:0cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:0cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:0cxx_default_function_template_args
-    Feature record: CXX_FEATURE:0cxx_defaulted_functions
-    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:0cxx_delegating_constructors
-    Feature record: CXX_FEATURE:0cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:0cxx_explicit_conversions
-    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:0cxx_extern_templates
-    Feature record: CXX_FEATURE:0cxx_final
-    Feature record: CXX_FEATURE:0cxx_func_identifier
-    Feature record: CXX_FEATURE:0cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
-    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:0cxx_inline_namespaces
-    Feature record: CXX_FEATURE:0cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:0cxx_local_type_template_args
-    Feature record: CXX_FEATURE:0cxx_long_long_type
-    Feature record: CXX_FEATURE:0cxx_noexcept
-    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:0cxx_nullptr
-    Feature record: CXX_FEATURE:0cxx_override
-    Feature record: CXX_FEATURE:0cxx_range_for
-    Feature record: CXX_FEATURE:0cxx_raw_string_literals
-    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:0cxx_rvalue_references
-    Feature record: CXX_FEATURE:0cxx_sizeof_member
-    Feature record: CXX_FEATURE:0cxx_static_assert
-    Feature record: CXX_FEATURE:0cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:0cxx_thread_local
-    Feature record: CXX_FEATURE:0cxx_trailing_return_types
-    Feature record: CXX_FEATURE:0cxx_unicode_literals
-    Feature record: CXX_FEATURE:0cxx_uniform_initialization
-    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:0cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:0cxx_variadic_macros
-    Feature record: CXX_FEATURE:0cxx_variadic_templates
-Determining if the CXX compiler accepts the flag -std=c++11 passed with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_a6ca6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a6ca6.dir/build.make CMakeFiles/cmTC_a6ca6.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a6ca6.dir/DummyCXXFile.cxx.o
-/usr/bin/c++     -std=c++11   -o CMakeFiles/cmTC_a6ca6.dir/DummyCXXFile.cxx.o -c /usr/share/cmake-3.5/Modules/DummyCXXFile.cxx
-Linking CXX executable cmTC_a6ca6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6ca6.dir/link.txt --verbose=1
-/usr/bin/c++    -std=c++11    CMakeFiles/cmTC_a6ca6.dir/DummyCXXFile.cxx.o  -o cmTC_a6ca6 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-
-
-Performing C++ SOURCE FILE Test HAVE_UNORDERED_MAP succeeded with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_622d3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_622d3.dir/build.make CMakeFiles/cmTC_622d3.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_622d3.dir/src.cxx.o
-/usr/bin/c++     -DHAVE_UNORDERED_MAP  -std=c++11   -o CMakeFiles/cmTC_622d3.dir/src.cxx.o -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_622d3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_622d3.dir/link.txt --verbose=1
-/usr/bin/c++    -DHAVE_UNORDERED_MAP  -std=c++11    CMakeFiles/cmTC_622d3.dir/src.cxx.o  -o cmTC_622d3 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_UNORDERED_MAP   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_UNORDERED_MAP    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 
-      #include <unordered_map>
+      #include <tr1/unordered_map>
       int main() {
-        std::unordered_map<int,int> m;
+        std::tr1::unordered_map<int,int> m;
         return m.find(42) == m.end();
       }
       
-Performing C++ SOURCE FILE Test HAVE_HASH_FUNC_HEADER succeeded with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Performing C++ SOURCE FILE Test HAVE_HASH_FUNC_HEADER succeded with the following output:
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ceaf4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ceaf4.dir/build.make CMakeFiles/cmTC_ceaf4.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ceaf4.dir/src.cxx.o
-/usr/bin/c++     -DHAVE_HASH_FUNC_HEADER  -std=c++11   -o CMakeFiles/cmTC_ceaf4.dir/src.cxx.o -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_ceaf4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceaf4.dir/link.txt --verbose=1
-/usr/bin/c++    -DHAVE_HASH_FUNC_HEADER  -std=c++11    CMakeFiles/cmTC_ceaf4.dir/src.cxx.o  -o cmTC_ceaf4 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_HASH_FUNC_HEADER   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_HASH_FUNC_HEADER    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 
-    #include <functional>
-    int main() { int x = std::hash<int>()(42); }
+    #include <tr1/functional>
+    int main() { int x = std::tr1::hash<int>()(42); }
     
 Determining if the include file inttypes.h exists passed with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_067b4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_067b4.dir/build.make CMakeFiles/cmTC_067b4.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_067b4.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -D_GNU_SOURCE    -o CMakeFiles/cmTC_067b4.dir/CheckIncludeFile.c.o   -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_067b4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_067b4.dir/link.txt --verbose=1
-/usr/bin/cc   -D_GNU_SOURCE     CMakeFiles/cmTC_067b4.dir/CheckIncludeFile.c.o  -o cmTC_067b4 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -D_GNU_SOURCE     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc    -D_GNU_SOURCE      CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7f6ce/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7f6ce.dir/build.make CMakeFiles/cmTC_7f6ce.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7f6ce.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -D_GNU_SOURCE    -o CMakeFiles/cmTC_7f6ce.dir/CheckIncludeFile.c.o   -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_7f6ce
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f6ce.dir/link.txt --verbose=1
-/usr/bin/cc   -D_GNU_SOURCE     CMakeFiles/cmTC_7f6ce.dir/CheckIncludeFile.c.o  -o cmTC_7f6ce -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -D_GNU_SOURCE     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc    -D_GNU_SOURCE      CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e30dc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e30dc.dir/build.make CMakeFiles/cmTC_e30dc.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e30dc.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -D_GNU_SOURCE    -o CMakeFiles/cmTC_e30dc.dir/CheckIncludeFile.c.o   -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e30dc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e30dc.dir/link.txt --verbose=1
-/usr/bin/cc   -D_GNU_SOURCE     CMakeFiles/cmTC_e30dc.dir/CheckIncludeFile.c.o  -o cmTC_e30dc -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -D_GNU_SOURCE     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc    -D_GNU_SOURCE      CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function memcpy exists passed with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a640f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a640f.dir/build.make CMakeFiles/cmTC_a640f.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a640f.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -D_GNU_SOURCE -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTC_a640f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-<command-line>:0:23: warning: conflicting types for built-in function ‘memcpy’
-/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
- char CHECK_FUNCTION_EXISTS();
-      ^
-Linking C executable cmTC_a640f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a640f.dir/link.txt --verbose=1
-/usr/bin/cc   -D_GNU_SOURCE -DCHECK_FUNCTION_EXISTS=memcpy    CMakeFiles/cmTC_a640f.dir/CheckFunctionExists.c.o  -o cmTC_a640f -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -D_GNU_SOURCE  -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: warning: conflicting types for built-in function 'memcpy' [enabled by default]
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc    -D_GNU_SOURCE  -DCHECK_FUNCTION_EXISTS=memcpy    CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0f4d8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0f4d8.dir/build.make CMakeFiles/cmTC_0f4d8.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0f4d8.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -D_GNU_SOURCE    -o CMakeFiles/cmTC_0f4d8.dir/CheckIncludeFile.c.o   -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_0f4d8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f4d8.dir/link.txt --verbose=1
-/usr/bin/cc   -D_GNU_SOURCE     CMakeFiles/cmTC_0f4d8.dir/CheckIncludeFile.c.o  -o cmTC_0f4d8 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -D_GNU_SOURCE     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc    -D_GNU_SOURCE      CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining size of long long passed with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_25050/fast"
-/usr/bin/make -f CMakeFiles/cmTC_25050.dir/build.make CMakeFiles/cmTC_25050.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_25050.dir/LONG_LONG.c.o
-/usr/bin/cc    -D_GNU_SOURCE    -o CMakeFiles/cmTC_25050.dir/LONG_LONG.c.o   -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CheckTypeSize/LONG_LONG.c
-Linking C executable cmTC_25050
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25050.dir/link.txt --verbose=1
-/usr/bin/cc   -D_GNU_SOURCE     CMakeFiles/cmTC_25050.dir/LONG_LONG.c.o  -o cmTC_25050 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/LONG_LONG.c.o
+/usr/bin/gcc   -D_GNU_SOURCE     -o CMakeFiles/cmTryCompileExec.dir/LONG_LONG.c.o   -c /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CheckTypeSize/LONG_LONG.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc    -D_GNU_SOURCE      CMakeFiles/cmTryCompileExec.dir/LONG_LONG.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining size of uint16_t passed with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a3a3e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a3a3e.dir/build.make CMakeFiles/cmTC_a3a3e.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a3a3e.dir/UINT16_T.c.o
-/usr/bin/cc    -D_GNU_SOURCE    -o CMakeFiles/cmTC_a3a3e.dir/UINT16_T.c.o   -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CheckTypeSize/UINT16_T.c
-Linking C executable cmTC_a3a3e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3a3e.dir/link.txt --verbose=1
-/usr/bin/cc   -D_GNU_SOURCE     CMakeFiles/cmTC_a3a3e.dir/UINT16_T.c.o  -o cmTC_a3a3e -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/UINT16_T.c.o
+/usr/bin/gcc   -D_GNU_SOURCE     -o CMakeFiles/cmTryCompileExec.dir/UINT16_T.c.o   -c /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CheckTypeSize/UINT16_T.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc    -D_GNU_SOURCE      CMakeFiles/cmTryCompileExec.dir/UINT16_T.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining size of u_int16_t passed with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f47b9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f47b9.dir/build.make CMakeFiles/cmTC_f47b9.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f47b9.dir/U_INT16_T.c.o
-/usr/bin/cc    -D_GNU_SOURCE    -o CMakeFiles/cmTC_f47b9.dir/U_INT16_T.c.o   -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CheckTypeSize/U_INT16_T.c
-Linking C executable cmTC_f47b9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f47b9.dir/link.txt --verbose=1
-/usr/bin/cc   -D_GNU_SOURCE     CMakeFiles/cmTC_f47b9.dir/U_INT16_T.c.o  -o cmTC_f47b9 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/U_INT16_T.c.o
+/usr/bin/gcc   -D_GNU_SOURCE     -o CMakeFiles/cmTryCompileExec.dir/U_INT16_T.c.o   -c /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CheckTypeSize/U_INT16_T.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc    -D_GNU_SOURCE      CMakeFiles/cmTryCompileExec.dir/U_INT16_T.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining size of __uint16_t passed with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e8207/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e8207.dir/build.make CMakeFiles/cmTC_e8207.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e8207.dir/__UINT16_T.c.o
-/usr/bin/cc    -D_GNU_SOURCE    -o CMakeFiles/cmTC_e8207.dir/__UINT16_T.c.o   -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CheckTypeSize/__UINT16_T.c
-Linking C executable cmTC_e8207
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8207.dir/link.txt --verbose=1
-/usr/bin/cc   -D_GNU_SOURCE     CMakeFiles/cmTC_e8207.dir/__UINT16_T.c.o  -o cmTC_e8207 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/__UINT16_T.c.o
+/usr/bin/gcc   -D_GNU_SOURCE     -o CMakeFiles/cmTryCompileExec.dir/__UINT16_T.c.o   -c /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CheckTypeSize/__UINT16_T.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc    -D_GNU_SOURCE      CMakeFiles/cmTryCompileExec.dir/__UINT16_T.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the sigtimedwait exist passed with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3ec59/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3ec59.dir/build.make CMakeFiles/cmTC_3ec59.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3ec59.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -D_GNU_SOURCE    -o CMakeFiles/cmTC_3ec59.dir/CheckSymbolExists.c.o   -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_3ec59
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ec59.dir/link.txt --verbose=1
-/usr/bin/cc   -D_GNU_SOURCE     CMakeFiles/cmTC_3ec59.dir/CheckSymbolExists.c.o  -o cmTC_3ec59 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -D_GNU_SOURCE     -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc    -D_GNU_SOURCE      CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
 
-File /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <signal.h>
 
-int main(int argc, char** argv)
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
 {
-  (void)argv;
 #ifndef sigtimedwait
-  return ((int*)(&sigtimedwait))[argc];
-#else
-  (void)argc;
-  return 0;
+  cmakeRequireSymbol(0,&sigtimedwait);
 #endif
+  return 0;
 }
 
-Performing C++ SOURCE FILE Test HAVE_UNORDERED_MAP succeeded with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_1c801/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1c801.dir/build.make CMakeFiles/cmTC_1c801.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1c801.dir/src.cxx.o
-/usr/bin/c++     -DHAVE_UNORDERED_MAP  -std=c++11   -o CMakeFiles/cmTC_1c801.dir/src.cxx.o -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_1c801
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c801.dir/link.txt --verbose=1
-/usr/bin/c++    -DHAVE_UNORDERED_MAP  -std=c++11    CMakeFiles/cmTC_1c801.dir/src.cxx.o  -o cmTC_1c801 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-
-Source file was:
-
-      #include <unordered_map>
-      int main() {
-        std::unordered_map<int,int> m;
-        return m.find(42) == m.end();
-      }
-      
-Performing C++ SOURCE FILE Test HAVE_HASH_FUNC_HEADER succeeded with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_9ea92/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9ea92.dir/build.make CMakeFiles/cmTC_9ea92.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9ea92.dir/src.cxx.o
-/usr/bin/c++     -DHAVE_HASH_FUNC_HEADER  -std=c++11   -o CMakeFiles/cmTC_9ea92.dir/src.cxx.o -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_9ea92
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ea92.dir/link.txt --verbose=1
-/usr/bin/c++    -DHAVE_HASH_FUNC_HEADER  -std=c++11    CMakeFiles/cmTC_9ea92.dir/src.cxx.o  -o cmTC_9ea92 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-
-Source file was:
-
-    #include <functional>
-    int main() { int x = std::hash<int>()(42); }
-    
-Performing C++ SOURCE FILE Test HAVE_UNORDERED_MAP succeeded with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_b1999/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b1999.dir/build.make CMakeFiles/cmTC_b1999.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b1999.dir/src.cxx.o
-/usr/bin/c++     -DHAVE_UNORDERED_MAP  -std=c++11   -o CMakeFiles/cmTC_b1999.dir/src.cxx.o -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_b1999
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1999.dir/link.txt --verbose=1
-/usr/bin/c++    -DHAVE_UNORDERED_MAP  -std=c++11    CMakeFiles/cmTC_b1999.dir/src.cxx.o  -o cmTC_b1999 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-
-Source file was:
-
-      #include <unordered_map>
-      int main() {
-        std::unordered_map<int,int> m;
-        return m.find(42) == m.end();
-      }
-      
-Performing C++ SOURCE FILE Test HAVE_HASH_FUNC_HEADER succeeded with the following output:
-Change Dir: /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_36196/fast"
-/usr/bin/make -f CMakeFiles/cmTC_36196.dir/build.make CMakeFiles/cmTC_36196.dir/build
-make[1]: Entering directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_36196.dir/src.cxx.o
-/usr/bin/c++     -DHAVE_HASH_FUNC_HEADER  -std=c++11   -o CMakeFiles/cmTC_36196.dir/src.cxx.o -c /home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_36196
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36196.dir/link.txt --verbose=1
-/usr/bin/c++    -DHAVE_HASH_FUNC_HEADER  -std=c++11    CMakeFiles/cmTC_36196.dir/src.cxx.o  -o cmTC_36196 -rdynamic 
-make[1]: Leaving directory '/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/CMakeTmp'
-
-Source file was:
-
-    #include <functional>
-    int main() { int x = std::hash<int>()(42); }
-    
