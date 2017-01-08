@@ -119,7 +119,6 @@ void insertTweetObjectMarkWithUpdate(CassCluster* cluster, CassSession* session,
             }
             cass_future_free(update_future);
         } else {
-            std::cout << "adding new object" << object_name << " " << object_mark <<std::endl;
             char *insert_query_objects = (char *)"insert into sentiment_service.objects (object_id, object_name, average_mark, num_of_marks) values (now(), ?, ?, 1);";
             CassStatement *statement = cass_statement_new(insert_query_objects, 2);
             cass_statement_bind_string(statement, 0, object_name.c_str());
@@ -150,7 +149,7 @@ void insertTweetObjectMarkWithUpdate(CassCluster* cluster, CassSession* session,
 
 
 std::string parseRequest(CassCluster* cluster, CassSession* session,
-                         CassFuture* connect_future, std::string request_body) {
+                         CassFuture* connect_future, std::string request_body, bool with_update) {
     Json::Value root;
     Json::Reader reader;
     std::string response_body = "";
@@ -170,7 +169,11 @@ std::string parseRequest(CassCluster* cluster, CassSession* session,
             object["name"] = object_pair.first;
             object["mark"] = object_pair.second;
             response_objects.append(object);
-            insertTweetObjectMarkWithUpdate(cluster, session, connect_future, tweet_text, object_pair.first, object_pair.second);
+            if (with_update) {
+                insertTweetObjectMarkWithUpdate(cluster, session, connect_future, tweet_text, object_pair.first, object_pair.second);
+            } else {
+                insertTweetObjectMark(cluster, session, connect_future, tweet_text, object_pair.first, object_pair.second);
+            }
         }
         int tweet_mark = -5 + rand() % 11;
 
@@ -184,6 +187,42 @@ std::string parseRequest(CassCluster* cluster, CassSession* session,
 
     }
     return response_body;
+}
+
+bool getAverageMark(CassCluster* cluster, CassSession* session,
+                     CassFuture* connect_future, std::string object_name, float avg_mark) {
+    /* Build statement and execute query */
+    char *select_query = (char *)"select * from sentiment_service.objects where object_name = ?;";
+    CassStatement *statement = cass_statement_new(insert_query, 1);
+    cass_statement_bind_string(statement, 0, object_name.c_str());
+    CassFuture *result_future = cass_session_execute(session, statement);
+    cass_statement_free(statement);
+
+
+    if (cass_future_error_code(result_future) == CASS_OK) {
+        /* Retrieve result set and get the first row */
+        const CassResult *result = cass_future_get_result(result_future);
+        const CassRow *row = cass_result_first_row(result);
+
+        if (row) {
+            const CassValue *value = cass_row_get_column_by_name(row, "average_mark");
+            cass_value_get_float(value, &avg_mark);
+            cass_result_free(result);
+            return true;
+        } else {
+            cass_result_free(result);
+            return false;
+        }
+    } else {
+        /* Handle error */
+        const char *message;
+        size_t message_length;
+        cass_future_error_message(result_future, &message, &message_length);
+        fprintf(stderr, "Unable to run query: '%.*s'\n", (int) message_length, message);
+    }
+
+    cass_future_free(result_future);
+    return false;
 }
 
 

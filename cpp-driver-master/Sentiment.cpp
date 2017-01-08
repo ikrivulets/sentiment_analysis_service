@@ -67,7 +67,7 @@ public:
             fastcgi::DataBuffer dataBuffer = request->requestBody();
             std::string db_string;
             dataBuffer.toString(db_string);
-	        std::string response_body = parseRequest(cluster, session, connect_future, db_string);
+	        std::string response_body = parseRequest(cluster, session, connect_future, db_string, true);
 	        request->write(response_body.c_str(), response_body.size());
         }
     }

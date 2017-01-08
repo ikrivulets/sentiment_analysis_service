@@ -10,130 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e97c8ade-5a59-45b6-be5d-506abd9cb30a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CMakeCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CMakeCXXCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CMakeSystem.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CompilerIdC/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CompilerIdCXX/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/abstract_data.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/address.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/auth.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/auth_requests.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/auth_responses.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/batch_request.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/blacklist_dc_policy.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/blacklist_policy.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/cluster.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/collection.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/collection_iterator.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/connection.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/control_connection.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/data_type.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/data_type_parser.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/dc_aware_policy.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/error_response.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/event_response.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/execute_request.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/external.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/future.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/get_time.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/host.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/host_targeting_policy.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/io_worker.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/iterator.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/latency_aware_policy.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/list_policy.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/logger.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/map_iterator.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/md5.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/metadata.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/murmur3.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/pool.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/prepare_request.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/prepared.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/query_request.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/random.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/register_request.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/request.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/request_callback.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/request_handler.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/response.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/result_metadata.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/result_response.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/retry_policy.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/ring_buffer.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/round_robin_policy.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/row.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/schema_change_callback.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/session.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/ssl.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/ssl/ring_buffer_bio.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/ssl/ssl_openssl_impl.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/startup_request.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/statement.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/string_ref.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/supported_response.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/testing.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/third_party/curl/hostcheck.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/third_party/hdr_histogram/hdr_histogram.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/timestamp_generator.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/token_aware_policy.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/token_map.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/token_map_impl.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/tuple.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/user_type_field_iterator.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/user_type_value.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/utils.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/uuids.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/value.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/whitelist_dc_policy.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/src/whitelist_policy.cpp.o" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/libcassandra.so.2.5.0" afterPath="$PROJECT_DIR$/cpp-driver-master/build/libcassandra.so.2.5.0" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp-driver-master/Sentiment.cpp.save" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp" afterPath="$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/CassandraManager.h" afterPath="$PROJECT_DIR$/cpp-driver-master/CassandraManager.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/Sentiment.cpp" afterPath="$PROJECT_DIR$/cpp-driver-master/Sentiment.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeCache.txt" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CMakeError.log" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CMakeError.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CMakeRuleHashes.txt" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CMakeRuleHashes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CheckTypeSize/LONG_LONG.bin" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CheckTypeSize/LONG_LONG.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CheckTypeSize/UINT16_T.bin" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CheckTypeSize/UINT16_T.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CheckTypeSize/U_INT16_T.bin" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CheckTypeSize/U_INT16_T.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CheckTypeSize/__UINT16_T.bin" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/CheckTypeSize/__UINT16_T.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/UNINSTALL.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/UNINSTALL.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/UNINSTALL.dir/build.make" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/UNINSTALL.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/UNINSTALL.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/UNINSTALL.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/build.make" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/depend.internal" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/depend.make" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/flags.make" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/link.txt" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/progress.make" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/cassandra.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CPackConfig.cmake" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CPackConfig.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/CPackSourceConfig.cmake" afterPath="$PROJECT_DIR$/cpp-driver-master/build/CPackSourceConfig.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/Makefile" afterPath="$PROJECT_DIR$/cpp-driver-master/build/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/cassandra.pc" afterPath="$PROJECT_DIR$/cpp-driver-master/build/cassandra.pc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/cmake_install.cmake" afterPath="$PROJECT_DIR$/cpp-driver-master/build/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/cmake_uninstall.cmake" afterPath="$PROJECT_DIR$/cpp-driver-master/build/cmake_uninstall.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/src/third_party/sparsehash/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cpp-driver-master/build/src/third_party/sparsehash/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/src/third_party/sparsehash/Makefile" afterPath="$PROJECT_DIR$/cpp-driver-master/build/src/third_party/sparsehash/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/build/src/third_party/sparsehash/cmake_install.cmake" afterPath="$PROJECT_DIR$/cpp-driver-master/build/src/third_party/sparsehash/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/create.cql" afterPath="$PROJECT_DIR$/cpp-driver-master/create.cql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/src/cassconfig.hpp" afterPath="$PROJECT_DIR$/cpp-driver-master/src/cassconfig.hpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/src/third_party/sparsehash/src/sparsehash/internal/sparseconfig.h" afterPath="$PROJECT_DIR$/cpp-driver-master/src/third_party/sparsehash/src/sparsehash/internal/sparseconfig.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/sentiment.conf" afterPath="$PROJECT_DIR$/cpp-driver-master/sentiment.conf" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -162,11 +44,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sentiment.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sentiment.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cpp-driver-master/Sentiment.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="64" column="54" lean-forward="true" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+            <state relative-caret-position="1116">
+              <caret line="62" column="32" lean-forward="true" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentimentGet.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="66" column="91" lean-forward="false" selection-start-line="66" selection-start-column="91" selection-end-line="66" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sentiment.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cpp-driver-master/sentiment.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -185,8 +87,8 @@
       <file leaf-file-name="CassandraManager.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cpp-driver-master/CassandraManager.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="504">
+              <caret line="28" column="88" lean-forward="false" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -205,9 +107,11 @@
       <file leaf-file-name="CassandraManager.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="24">
+              <caret line="192" column="74" lean-forward="true" selection-start-line="192" selection-start-column="74" selection-end-line="192" selection-end-column="88" />
+              <folding>
+                <element signature="e#7133#8754#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -215,8 +119,8 @@
       <file leaf-file-name="create.cql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cpp-driver-master/create.cql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="101" />
+            <state relative-caret-position="505">
+              <caret line="34" column="69" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -254,10 +158,12 @@
         <option value="$PROJECT_DIR$/monitoring_conf.xml" />
         <option value="$PROJECT_DIR$/load.ini" />
         <option value="$PROJECT_DIR$/yandex-tank/load.ini" />
-        <option value="$PROJECT_DIR$/cpp-driver-master/Sentiment.cpp" />
         <option value="$PROJECT_DIR$/cpp-driver-master/create.cql" />
-        <option value="$PROJECT_DIR$/cpp-driver-master/CassandraManager.h" />
+        <option value="$PROJECT_DIR$/cpp-driver-master/Sentiment.cpp" />
+        <option value="$PROJECT_DIR$/cpp-driver-master/sentiment.conf" />
         <option value="$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp" />
+        <option value="$PROJECT_DIR$/cpp-driver-master/CassandraManager.h" />
+        <option value="$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp" />
       </list>
     </option>
   </component>
@@ -340,6 +246,9 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cpp-driver-master" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/yandex-tank" />
     </key>
@@ -531,12 +440,12 @@
       <workItem from="1483555621911" duration="12725000" />
       <workItem from="1483728462927" duration="80000" />
       <workItem from="1483728578649" duration="968000" />
-      <workItem from="1483868006433" duration="7262000" />
+      <workItem from="1483868006433" duration="9426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41983000" />
+    <option name="totallyTimeSpent" value="44147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -565,6 +474,7 @@
     <option name="processedProjectFiles" value="true" />
   </component>
   <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.cql" />
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -577,22 +487,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cpp-driver-master/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cpp-driver-master/CassandraManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cpp-driver-master/ex.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -605,7 +499,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#7133#8754#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -645,7 +541,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="e#7133#8754#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -691,7 +589,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#7133#8754#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -886,34 +786,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cpp-driver-master/CassandraManager.h">
+    <entry file="file://$PROJECT_DIR$/cpp-driver-master/sentiment.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="288">
+          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cpp-driver-master/create.cql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="101" />
+        <state relative-caret-position="505">
+          <caret line="34" column="69" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+        <state relative-caret-position="24">
+          <caret line="192" column="74" lean-forward="true" selection-start-line="192" selection-start-column="74" selection-end-line="192" selection-end-column="88" />
+          <folding>
+            <element signature="e#7133#8754#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpp-driver-master/CassandraManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="88" lean-forward="false" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cpp-driver-master/Sentiment.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="64" column="54" lean-forward="true" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+        <state relative-caret-position="1116">
+          <caret line="62" column="32" lean-forward="true" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="66" column="91" lean-forward="false" selection-start-line="66" selection-start-column="91" selection-end-line="66" selection-end-column="91" />
           <folding />
         </state>
       </provider>

@@ -23,4 +23,7 @@ void insertTweetObjectMarkWithUpdate(CassCluster* cluster, CassSession* session,
                            std::string object_name, float object_mark);
 
 std::string parseRequest(CassCluster* cluster, CassSession* session,
-                         CassFuture* connect_future, std::string request_body);
+                         CassFuture* connect_future, std::string request_body, bool with_update);
+
+float getAverageMark(CassCluster* cluster, CassSession* session,
+                     CassFuture* connect_future, std::string object_name, float avg_mark);

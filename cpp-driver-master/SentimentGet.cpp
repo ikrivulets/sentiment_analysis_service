@@ -12,16 +12,15 @@
 #include <jsoncpp/json/value.h>
 
 #include <cassandra.h>
-
 #include "CassandraManager.h"
 
-class Sentiment : virtual public fastcgi::Component, virtual public fastcgi::Handler {
+class SentimentGet : virtual public fastcgi::Component, virtual public fastcgi::Handler {
 
 public:
-    Sentiment(fastcgi::ComponentContext *context) :
+    SentimentGet(fastcgi::ComponentContext *context) :
     fastcgi::Component(context) {
     }
-    virtual ~Sentiment() {
+    virtual ~SentimentGet() {
     }
     CassFuture* connect_future;
     CassCluster* cluster;
@@ -31,9 +30,7 @@ public:
     virtual void onLoad() {
         srand (time(NULL));
 
-        CassCluster* cluster;
-        CassSession* session;
-        CassFuture *connect_future = NULL;
+        connect_future = NULL;
         cluster = cass_cluster_new();
         session = cass_session_new();
         char *hosts = (char *)"192.168.56.1";
@@ -62,23 +59,19 @@ public:
         std::string request_method = request->getRequestMethod();
         if (request_method == "GET") {
             request->setContentType("text/plain");
-            std::string tweet = std::string(request->getArg("tweet"));
-            int mark = -5 + rand() % 11;
-            std::string resp = "Mark(" + tweet + ")=" + std::to_string(mark) + "\n";
+            std::string object_name = std::string(request->getArg("object_name"));
+            float mark = -5 + rand() % 11;
+            if (getAverageMark(cluster, session, connect_future, object_name, mark)) {
+                std::string resp = "Object Average Mark(" + object_name + ")=" + std::to_string(mark) + "\n";
+            } else {
+                std::string resp = "Object Average Mark(" + object_name + ") was not found";
+            }
+
             request->write(resp.c_str(), resp.size());
-        } else if (request_method == "POST") {
-            fastcgi::DataBuffer dataBuffer = request->requestBody();
-            std::string db_string;
-            dataBuffer.toString(db_string);
-	    //std::cout << "request_body " << db_string;
-            std::string response_body = parseRequest(cluster, session, connect_future, db_string);
-r            //std::cout << "response_body " << response_body;
-	    request->write(response_body.c_str(), response_body.length());
         }
     }
-
 };
 
 FCGIDAEMON_REGISTER_FACTORIES_BEGIN()
-FCGIDAEMON_ADD_DEFAULT_FACTORY("sentiment_factory", Sentiment)
+FCGIDAEMON_ADD_DEFAULT_FACTORY("sentiment_get_factory", SentimentGet)
 FCGIDAEMON_REGISTER_FACTORIES_END()
