@@ -193,7 +193,7 @@ bool getAverageMark(CassCluster* cluster, CassSession* session,
                      CassFuture* connect_future, std::string object_name, float avg_mark) {
     /* Build statement and execute query */
     char *select_query = (char *)"select * from sentiment_service.objects where object_name = ?;";
-    CassStatement *statement = cass_statement_new(insert_query, 1);
+    CassStatement *statement = cass_statement_new(select_query, 1);
     cass_statement_bind_string(statement, 0, object_name.c_str());
     CassFuture *result_future = cass_session_execute(session, statement);
     cass_statement_free(statement);
