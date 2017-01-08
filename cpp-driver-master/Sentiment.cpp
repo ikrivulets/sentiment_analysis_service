@@ -13,6 +13,7 @@
 
 #include <cassandra.h>
 #include "CassandraManager.h"
+#include "SentimentGet.cpp"
 
 class Sentiment : virtual public fastcgi::Component, virtual public fastcgi::Handler {
 
@@ -75,4 +76,5 @@ public:
 
 FCGIDAEMON_REGISTER_FACTORIES_BEGIN()
 FCGIDAEMON_ADD_DEFAULT_FACTORY("sentiment_factory", Sentiment)
+FCGIDAEMON_ADD_DEFAULT_FACTORY("sentiment_get_factory", SentimentGet)
 FCGIDAEMON_REGISTER_FACTORIES_END()
