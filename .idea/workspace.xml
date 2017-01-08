@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e97c8ade-5a59-45b6-be5d-506abd9cb30a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp" afterPath="$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/CassandraManager.h" afterPath="$PROJECT_DIR$/cpp-driver-master/CassandraManager.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/Makefile" afterPath="$PROJECT_DIR$/cpp-driver-master/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp" afterPath="$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentimentGet.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SentimentGet.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+            <state relative-caret-position="289">
+              <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -71,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Makefile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cpp-driver-master/Makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="77" lean-forward="false" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+              <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -158,10 +157,10 @@
         <option value="$PROJECT_DIR$/cpp-driver-master/create.cql" />
         <option value="$PROJECT_DIR$/cpp-driver-master/Sentiment.cpp" />
         <option value="$PROJECT_DIR$/cpp-driver-master/sentiment.conf" />
-        <option value="$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp" />
         <option value="$PROJECT_DIR$/cpp-driver-master/CassandraManager.h" />
         <option value="$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp" />
         <option value="$PROJECT_DIR$/cpp-driver-master/Makefile" />
+        <option value="$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp" />
       </list>
     </option>
   </component>
@@ -438,12 +437,12 @@
       <workItem from="1483555621911" duration="12725000" />
       <workItem from="1483728462927" duration="80000" />
       <workItem from="1483728578649" duration="968000" />
-      <workItem from="1483868006433" duration="9641000" />
+      <workItem from="1483868006433" duration="9887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44362000" />
+    <option name="totallyTimeSpent" value="44608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -800,14 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cpp-driver-master/CassandraManager.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -829,7 +820,15 @@
     <entry file="file://$PROJECT_DIR$/cpp-driver-master/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="77" lean-forward="false" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+          <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
           <folding />
         </state>
       </provider>

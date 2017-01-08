@@ -61,10 +61,11 @@ public:
             request->setContentType("text/plain");
             std::string object_name = std::string(request->getArg("object_name"));
             float mark = -5 + rand() % 11;
+            std::string resp;
             if (getAverageMark(cluster, session, connect_future, object_name, mark)) {
-                std::string resp = "Object Average Mark(" + object_name + ")=" + std::to_string(mark) + "\n";
+                resp = "Object Average Mark(" + object_name + ")=" + std::to_string(mark) + "\n";
             } else {
-                std::string resp = "Object Average Mark(" + object_name + ") was not found";
+                resp = "Object Average Mark(" + object_name + ") was not found";
             }
 
             request->write(resp.c_str(), resp.size());
