@@ -1,11 +1,11 @@
 
 cmake_policy(SET CMP0007 OLD)
 
-if (NOT EXISTS "/home/user/sentiment_analysis_service/cpp-driver-master/build/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/user/sentiment_analysis_service/cpp-driver-master/build/install_manifest.txt\"")
-endif(NOT EXISTS "/home/user/sentiment_analysis_service/cpp-driver-master/build/install_manifest.txt")
+if (NOT EXISTS "/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/install_manifest.txt\"")
+endif(NOT EXISTS "/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/install_manifest.txt")
 
-file(READ "/home/user/sentiment_analysis_service/cpp-driver-master/build/install_manifest.txt" files)
+file(READ "/home/igor/ClionProjects/sentiment_analysis_service/cpp-driver-master/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 list(REVERSE files)
 foreach (file ${files})
