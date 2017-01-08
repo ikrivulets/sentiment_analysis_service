@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e97c8ade-5a59-45b6-be5d-506abd9cb30a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp" afterPath="$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-driver-master/CassandraManager.h" afterPath="$PROJECT_DIR$/cpp-driver-master/CassandraManager.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,9 +43,16 @@
       <file leaf-file-name="Sentiment.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cpp-driver-master/Sentiment.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="62" column="32" lean-forward="true" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="288">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <marker date="1483883475800" expanded="true" signature="488:2559" ph="{...}" />
+                <marker date="1483883475800" expanded="true" signature="583:590" ph="{...}" />
+                <marker date="1483883475800" expanded="true" signature="616:623" ph="{...}" />
+                <marker date="1483883475800" expanded="true" signature="743:1515" ph="{...}" />
+                <marker date="1483883475800" expanded="true" signature="1545:1666" ph="{...}" />
+                <marker date="1483883475800" expanded="true" signature="1765:2557" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,14 +60,21 @@
       <file leaf-file-name="SentimentGet.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="64" column="78" lean-forward="true" selection-start-line="64" selection-start-column="78" selection-end-line="64" selection-end-column="78" />
-              <folding />
+            <state relative-caret-position="163">
+              <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+              <folding>
+                <marker date="1483883475812" expanded="true" signature="463:2434" ph="{...}" />
+                <marker date="1483883475812" expanded="true" signature="561:568" ph="{...}" />
+                <marker date="1483883475812" expanded="true" signature="597:604" ph="{...}" />
+                <marker date="1483883475812" expanded="true" signature="724:1496" ph="{...}" />
+                <marker date="1483883475812" expanded="true" signature="1526:1647" ph="{...}" />
+                <marker date="1483883475812" expanded="true" signature="1746:2432" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sentiment.conf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sentiment.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cpp-driver-master/sentiment.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
@@ -82,8 +97,8 @@
       <file leaf-file-name="CassandraManager.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cpp-driver-master/CassandraManager.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="396">
+              <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -99,13 +114,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CassandraManager.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CassandraManager.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-246">
-              <caret line="195" column="62" lean-forward="false" selection-start-line="195" selection-start-column="62" selection-end-line="195" selection-end-column="62" />
+            <state relative-caret-position="540">
+              <caret line="126" column="1" lean-forward="true" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
               <folding>
-                <element signature="e#7133#8754#0" expanded="false" />
+                <element signature="e#802#2597#0" expanded="false" />
+                <element signature="e#2599#6080#0" expanded="false" />
+                <element signature="e#6083#7802#0" expanded="false" />
+                <element signature="e#7804#9242#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -124,7 +142,7 @@
       <file leaf-file-name="sentiment_api.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentiment_api.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2088">
+            <state relative-caret-position="217">
               <caret line="116" column="28" lean-forward="false" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
               <folding />
             </state>
@@ -154,12 +172,12 @@
         <option value="$PROJECT_DIR$/load.ini" />
         <option value="$PROJECT_DIR$/yandex-tank/load.ini" />
         <option value="$PROJECT_DIR$/cpp-driver-master/create.cql" />
-        <option value="$PROJECT_DIR$/cpp-driver-master/Sentiment.cpp" />
-        <option value="$PROJECT_DIR$/cpp-driver-master/CassandraManager.h" />
-        <option value="$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp" />
         <option value="$PROJECT_DIR$/cpp-driver-master/Makefile" />
         <option value="$PROJECT_DIR$/cpp-driver-master/sentiment.conf" />
         <option value="$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp" />
+        <option value="$PROJECT_DIR$/cpp-driver-master/Sentiment.cpp" />
+        <option value="$PROJECT_DIR$/cpp-driver-master/CassandraManager.h" />
+        <option value="$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp" />
       </list>
     </option>
   </component>
@@ -213,20 +231,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yandex-tank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sentiment_analysis_service" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sentiment_analysis_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp-driver-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -436,12 +440,12 @@
       <workItem from="1483555621911" duration="12725000" />
       <workItem from="1483728462927" duration="80000" />
       <workItem from="1483728578649" duration="968000" />
-      <workItem from="1483868006433" duration="12293000" />
+      <workItem from="1483868006433" duration="14908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47014000" />
+    <option name="totallyTimeSpent" value="49629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -453,7 +457,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38124362" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25586137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -478,7 +482,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -496,7 +500,10 @@
         <state relative-caret-position="180">
           <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
-            <element signature="e#7133#8754#0" expanded="false" />
+            <element signature="e#802#2597#0" expanded="false" />
+            <element signature="e#2599#6080#0" expanded="false" />
+            <element signature="e#6083#7802#0" expanded="false" />
+            <element signature="e#7804#9242#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -521,7 +528,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="28" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1483883475800" expanded="true" signature="488:2559" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="583:590" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="616:623" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="743:1515" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="1545:1666" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="1765:2557" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -538,7 +552,10 @@
         <state relative-caret-position="1026">
           <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
           <folding>
-            <element signature="e#7133#8754#0" expanded="false" />
+            <element signature="e#802#2597#0" expanded="false" />
+            <element signature="e#2599#6080#0" expanded="false" />
+            <element signature="e#6083#7802#0" expanded="false" />
+            <element signature="e#7804#9242#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -569,7 +586,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="28" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1483883475800" expanded="true" signature="488:2559" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="583:590" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="616:623" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="743:1515" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="1545:1666" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="1765:2557" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -586,7 +610,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7133#8754#0" expanded="false" />
+            <element signature="e#802#2597#0" expanded="false" />
+            <element signature="e#2599#6080#0" expanded="false" />
+            <element signature="e#6083#7802#0" expanded="false" />
+            <element signature="e#7804#9242#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -766,52 +793,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentiment_api.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="116" column="28" lean-forward="false" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cpp-driver-master/CassandraManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="195" column="62" lean-forward="false" selection-start-line="195" selection-start-column="62" selection-end-line="195" selection-end-column="62" />
-          <folding>
-            <element signature="e#7133#8754#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cpp-driver-master/Sentiment.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="62" column="32" lean-forward="true" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cpp-driver-master/create.cql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="64" column="78" lean-forward="true" selection-start-line="64" selection-start-column="78" selection-end-line="64" selection-end-column="78" />
           <folding />
         </state>
       </provider>
@@ -829,6 +814,65 @@
         <state relative-caret-position="162">
           <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpp-driver-master/Sentiment.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1483883475800" expanded="true" signature="488:2559" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="583:590" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="616:623" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="743:1515" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="1545:1666" ph="{...}" />
+            <marker date="1483883475800" expanded="true" signature="1765:2557" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment_api.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="116" column="28" lean-forward="false" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpp-driver-master/SentimentGet.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding>
+            <marker date="1483883475812" expanded="true" signature="463:2434" ph="{...}" />
+            <marker date="1483883475812" expanded="true" signature="561:568" ph="{...}" />
+            <marker date="1483883475812" expanded="true" signature="597:604" ph="{...}" />
+            <marker date="1483883475812" expanded="true" signature="724:1496" ph="{...}" />
+            <marker date="1483883475812" expanded="true" signature="1526:1647" ph="{...}" />
+            <marker date="1483883475812" expanded="true" signature="1746:2432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpp-driver-master/CassandraManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpp-driver-master/CassandraManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="126" column="1" lean-forward="true" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
+          <folding>
+            <element signature="e#802#2597#0" expanded="false" />
+            <element signature="e#2599#6080#0" expanded="false" />
+            <element signature="e#6083#7802#0" expanded="false" />
+            <element signature="e#7804#9242#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

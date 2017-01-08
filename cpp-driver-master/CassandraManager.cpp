@@ -60,32 +60,12 @@ void insertTweetObjectMark(CassCluster* cluster, CassSession* session, CassFutur
     cass_future_free(result_future);
 }
 
-void insertTweetObjectMarkWithUpdate(CassCluster* cluster, CassSession* session, CassFuture* connect_future,
-                           std::string tweet_text, std::string object_name, float object_mark) {
-    /* Build statement and execute query */
-    char *insert_query = (char *)"INSERT INTO sentiment_service.tweets (tweet_id, tweet_text, object_id, object_name, object_mark, createdts) "
-            "values (now(), ?, now(),?, ?, dateof(now()));";
-    CassStatement *statement = cass_statement_new(insert_query, 3);
-    cass_statement_bind_string(statement, 0, tweet_text.c_str());
-    cass_statement_bind_string(statement, 1, object_name.c_str());
-    cass_statement_bind_float(statement, 2, object_mark);
-    CassFuture *result_future = cass_session_execute(session, statement);
-    cass_statement_free(statement);
-
-    if (cass_future_error_code(result_future) != CASS_OK) {
-        /* Handle error */
-        const char *message;
-        size_t message_length;
-        cass_future_error_message(result_future, &message, &message_length);
-        fprintf(stderr, "Unable to run query: '%.*s'\n", (int) message_length, message);
-    }
-    cass_future_free(result_future);
-
+void addOrUpdateObject(CassCluster* cluster, CassSession* session, CassFuture* connect_future,
+                       std::string object_name, float object_mark) {
     char *select_query = (char *)"select * from sentiment_service.objects where object_name = ?;";
-    statement = cass_statement_new(select_query, 1);
+    CassStatement *statement = cass_statement_new(select_query, 1);
     cass_statement_bind_string(statement, 0, object_name.c_str());
-//    cass_statement_bind_string(statement, 0, "iphone");
-    result_future = cass_session_execute(session, statement);
+    CassFuture *result_future = cass_session_execute(session, statement);
     cass_statement_free(statement);
 
     if (cass_future_error_code(result_future) == CASS_OK) {
@@ -147,7 +127,6 @@ void insertTweetObjectMarkWithUpdate(CassCluster* cluster, CassSession* session,
 }
 
 
-
 std::string parseRequest(CassCluster* cluster, CassSession* session,
                          CassFuture* connect_future, std::string request_body, bool with_update) {
     Json::Value root;
@@ -170,7 +149,8 @@ std::string parseRequest(CassCluster* cluster, CassSession* session,
             object["mark"] = object_pair.second;
             response_objects.append(object);
             if (with_update) {
-                insertTweetObjectMarkWithUpdate(cluster, session, connect_future, tweet_text, object_pair.first, object_pair.second);
+                insertTweetObjectMark(cluster, session, connect_future, tweet_text, object_pair.first, object_pair.second);
+                addOrUpdateObject(cluster, session, connect_future, object_pair.first, object_pair.second);
             } else {
                 insertTweetObjectMark(cluster, session, connect_future, tweet_text, object_pair.first, object_pair.second);
             }
@@ -225,9 +205,11 @@ bool getAverageMark(CassCluster* cluster, CassSession* session,
     return false;
 }
 
-
 //int main(int argc, char* argv[]) {
 //    srand (time(NULL));
+//    std::ifstream words;
+//    words.open ("../words.txt");
+//
 //    CassFuture* connect_future;
 //    CassCluster* cluster;
 //    CassSession* session;
@@ -248,9 +230,16 @@ bool getAverageMark(CassCluster* cluster, CassSession* session,
 //        cass_future_error_message(connect_future, &message, &message_length);
 //        fprintf(stderr, "Unable to connect: '%.*s'\n", (int)message_length, message);
 //    }
-//    std::string tweet_text = "{\"text\" : \"hello deaar woorld iphone\"}";
-//
-//    parseRequest(cluster, session, connect_future, tweet_text);
+////    std::string tweet_text = "{\"text\" : \"hello deaar woorld iphone\"}";
+//    for (int i = 0; i < 50000; i++) {
+//        std::string word;
+//        words >> word;
+//        float mark = -5 + rand() % 11;
+//        addOrUpdateObject(cluster, session, connect_future, word, mark);
+////        std::cout << word << std::endl;
+//    }
+//    words.close();
+////    parseRequest(cluster, session, connect_future, tweet_text, true);
 //    cass_future_free(connect_future);
 //    cass_cluster_free(cluster);
 //    cass_session_free(session);
