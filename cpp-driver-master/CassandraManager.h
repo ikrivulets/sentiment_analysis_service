@@ -26,4 +26,4 @@ std::string parseRequest(CassCluster* cluster, CassSession* session,
                          CassFuture* connect_future, std::string request_body, bool with_update);
 
 std::string getAverageMark(CassCluster* cluster, CassSession* session,
-                     CassFuture* connect_future, std::string object_name);
+                           CassFuture* connect_future, std::string object_name);

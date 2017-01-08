@@ -1,2 +1,0 @@
-/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/UNINSTALL.dir
-/home/user/sentiment_analysis_service/cpp-driver-master/build/CMakeFiles/cassandra.dir
