@@ -3,7 +3,7 @@ CXXFLAGS = -std=c++0x -fPIC -O2
 LDFLAGS = -shared
 LIBS = -lfastcgi-daemon2 -ljsoncpp -Lbuild -lcassandra -Iinclude
 
-SOURCES = CassandraManager.h CassandraManager.cpp SentimentGet.cpp Sentiment.cpp
+SOURCES = CassandraManager.h CassandraManager.cpp Sentiment.cpp SentimentGet.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 
 TARGET=libsentiment.so
