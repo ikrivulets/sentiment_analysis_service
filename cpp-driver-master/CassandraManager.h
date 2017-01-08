@@ -25,5 +25,5 @@ void addOrUpdateObject(CassCluster* cluster, CassSession* session, CassFuture* c
 std::string parseRequest(CassCluster* cluster, CassSession* session,
                          CassFuture* connect_future, std::string request_body, bool with_update);
 
-bool getAverageMark(CassCluster* cluster, CassSession* session,
-                     CassFuture* connect_future, std::string object_name, float avg_mark);
+std::string getAverageMark(CassCluster* cluster, CassSession* session,
+                     CassFuture* connect_future, std::string object_name);
